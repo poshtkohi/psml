@@ -1,4 +1,4 @@
-# PSML: **p**arallel **s**ystem **m**odelling and simulation **l**anguage for electronic system level
+# PSML: Parallel System Modelling and simulation Language for electronic system level
 
 
 Fast and accurate simulation is highly desirable for efficient and effective system design due to the ever-increasing complexity of embedded and cyber physical systems. Parallel discrete-event simulation (PDES) is the main technique to solve this problem for large-scale system-level models. PDES works based on state space partitioning by using the so-called logical process worldview. This repository includes the parallel system modeling and simulation language (PSML), along with its formalized distributed parallel simulation kernel, that provides execution of hardware models in order to improve simulation speed significantly.
