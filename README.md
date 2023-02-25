@@ -10,8 +10,7 @@ This repository contains a conservatively parallel implementation of the Native 
 
 [1] A. Poshtkohi, M. B. Ghaznavi-Ghoushchi, K. Saghafi, _PSML: Parallel System Modeling and Simulation Language for Electronic System Level_, Journal of Supercomputing, 75:5 (2019), 2691–2724. doi: 10.1007/s11227-018-2682-1
 
-**Note:** To make use of this project, xSim simulation engine from this repository https://github.com/poshtkohi/pdes must be first installed.
+**Note 1:** To make use of this project, xSim simulation engine from this repository https://github.com/poshtkohi/pdes must be first installed.
+**Note 2:** Currently there is no plan make the PSML compiler open-source, but the Native PSML language can be seamlessly be used to develop complex system level models similar to the SystemC language (SystemC is a set of C++ classes and macros which provide an event-driven simulation interface).
 
 **Licence:** Note that the code can be changed and reused as long as you keep the copyright inside and at the beginning of source files in the source directory unchanged. If this language  is used everywhere, it should be cited as _A. Poshtkohi, M. B. Ghaznavi-Ghoushchi, K. Saghafi, PSML: Parallel System Modeling and Simulation Language for Electronic System Level, Journal of Supercomputing, 75:5 (2019), 2691–2724. doi: 10.1007/s11227-018-2682-1_.
-
-**Note:** Currently there is no plan make the PSML compiler open-source, but the Native PSML language can be seamlessly be used to develop complex system level models similar to the SystemC language (SystemC is a set of C++ classes and macros which provide an event-driven simulation interface).
