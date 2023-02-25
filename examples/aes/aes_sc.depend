@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1493179158 source:/root/devel/xParvicursor/Samples/xSim2/RTL/aes/aes_cipher_sc.cpp
+	"aes_cipher_sc.h"
+
+1493161671 /root/devel/xParvicursor/Samples/xSim2/RTL/aes/aes_cipher_sc.h
+	"define_sc.h"
+
+1490460386 /root/devel/xParvicursor/Samples/xSim2/RTL/aes/define_sc.h
+	"systemc.h"
+	"stdio.h"
+
+1493179454 source:/root/devel/xParvicursor/Samples/xSim2/RTL/aes/main_sc.cpp
+	"aes_cipher_sc.h"
+	"tb_aes_cipher_sc.h"
+	<vector>
+	<general.h>
+	<StaticFunctions/StaticFunctions.h>
+	<System/BasicTypes/BasicTypes.h>
+	<System/Object/Object.h>
+	<System/String/String.h>
+	<System/DateTime/DateTime.h>
+	<Parvicursor/Profiler/ResourceProfiler.h>
+	<System.IO/IOException/IOException.h>
+
+1493161746 /root/devel/xParvicursor/Samples/xSim2/RTL/aes/tb_aes_cipher_sc.h
+	"define_sc.h"
+
+1493179158 source:/root/devel/xParvicursor/Samples/xSim2/RTL/aes/tb_aes_cipher_sc.cpp
+	"tb_aes_cipher_sc.h"
+
+1487544268 /root/devel/xParvicursor/Parvicursor/general.h
+	<atlstr.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+
+1487544268 /root/devel/xParvicursor/Parvicursor/StaticFunctions/StaticFunctions.h
+	"../general.h"
+	"../System/BasicTypes/BasicTypes.h"
+	"../System/String/String.h"
+	<malloc.h>
+	<stdlib.h>
+	<unistd.h>
+	< time.h >
+	<sys/time.h>
+	<sys/types.h>
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/BasicTypes/BasicTypes.h
+	"../../general.h"
+
+1487545350 /root/devel/xParvicursor/Parvicursor/System/String/String.h
+	"../Object/Object.h"
+	"../BasicTypes/BasicTypes.h"
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/Object/Object.h
+	"../BasicTypes/BasicTypes.h"
+
+1487545118 /root/devel/xParvicursor/Parvicursor/System/DateTime/DateTime.h
+	"../../System/Object/Object.h"
+	"../../System/BasicTypes/BasicTypes.h"
+	<windows.h>
+	<sys/time.h>
+	<time.h>
+	<unistd.h>
+
+1487546006 /root/devel/xParvicursor/Parvicursor/Parvicursor/Profiler/ResourceProfiler.h
+	"../../general.h"
+	"../../StaticFunctions/StaticFunctions.h"
+	"../../System/BasicTypes/BasicTypes.h"
+	"../../System/Object/Object.h"
+	"../../System/Exception/Exception.h"
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/Exception/Exception.h
+	"../Object/Object.h"
+	"../String/String.h"
+	"../BasicTypes/BasicTypes.h"
+
+1487544882 /root/devel/xParvicursor/Parvicursor/System.IO/IOException/IOException.h
+	"../../System/Exception/Exception.h"
+	"../../System/String/String.h"
+
