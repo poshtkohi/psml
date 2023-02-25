@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1491116220 source:/root/devel/xParvicursor/Samples/xSim2/manycore/main_sc.cpp
+	"pe_work_stealing_scheduler_sc.h"
+	"pe_matmul_sc.h"
+	"globals.h"
+	<string>
+	<general.h>
+	<StaticFunctions/StaticFunctions.h>
+	<System/BasicTypes/BasicTypes.h>
+	<System/Object/Object.h>
+	<System/String/String.h>
+	<System/DateTime/DateTime.h>
+	<Parvicursor/Profiler/ResourceProfiler.h>
+	<System.IO/IOException/IOException.h>
+
+1490863158 /root/devel/xParvicursor/Samples/xSim2/manycore/memory_sc.h
+	<systemc.h>
+	"globals.h"
+
+1490953531 source:/root/devel/xParvicursor/Samples/xSim2/manycore/memory_sc.cpp
+	"memory_sc.h"
+
+1491116036 source:/root/devel/xParvicursor/Samples/xSim2/manycore/pe_matmul_sc.cpp
+	"pe_matmul_sc.h"
+
+1491115334 /root/devel/xParvicursor/Samples/xSim2/manycore/pe_matmul_sc.h
+	<systemc.h>
+	"globals.h"
+
+1491116144 /root/devel/xParvicursor/Samples/xSim2/manycore/globals.h
+	<string>
+	<iostream>
+	<System/BasicTypes/BasicTypes.h>
+
+1491115970 source:/root/devel/xParvicursor/Samples/xSim2/manycore/pe_work_stealing_scheduler_sc.cpp
+	"pe_work_stealing_scheduler_sc.h"
+
+1490863088 /root/devel/xParvicursor/Samples/xSim2/manycore/pe_work_stealing_scheduler_sc.h
+	<systemc.h>
+	"globals.h"
+
+1490953553 source:/root/devel/xParvicursor/Samples/xSim2/manycore/bus_controller_sc.cpp
+	"bus_controller_sc.h"
+
+1491011068 /root/devel/xParvicursor/Samples/xSim2/manycore/bus_controller_sc.h
+	<systemc.h>
+	"globals.h"
+
+1487544268 /root/devel/xParvicursor/Parvicursor/general.h
+	<atlstr.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+
+1487544268 /root/devel/xParvicursor/Parvicursor/StaticFunctions/StaticFunctions.h
+	"../general.h"
+	"../System/BasicTypes/BasicTypes.h"
+	"../System/String/String.h"
+	<malloc.h>
+	<stdlib.h>
+	<unistd.h>
+	< time.h >
+	<sys/time.h>
+	<sys/types.h>
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/BasicTypes/BasicTypes.h
+	"../../general.h"
+
+1487545350 /root/devel/xParvicursor/Parvicursor/System/String/String.h
+	"../Object/Object.h"
+	"../BasicTypes/BasicTypes.h"
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/Object/Object.h
+	"../BasicTypes/BasicTypes.h"
+
+1487545118 /root/devel/xParvicursor/Parvicursor/System/DateTime/DateTime.h
+	"../../System/Object/Object.h"
+	"../../System/BasicTypes/BasicTypes.h"
+	<windows.h>
+	<sys/time.h>
+	<time.h>
+	<unistd.h>
+
+1487546006 /root/devel/xParvicursor/Parvicursor/Parvicursor/Profiler/ResourceProfiler.h
+	"../../general.h"
+	"../../StaticFunctions/StaticFunctions.h"
+	"../../System/BasicTypes/BasicTypes.h"
+	"../../System/Object/Object.h"
+	"../../System/Exception/Exception.h"
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/Exception/Exception.h
+	"../Object/Object.h"
+	"../String/String.h"
+	"../BasicTypes/BasicTypes.h"
+
+1487544882 /root/devel/xParvicursor/Parvicursor/System.IO/IOException/IOException.h
+	"../../System/Exception/Exception.h"
+	"../../System/String/String.h"
+

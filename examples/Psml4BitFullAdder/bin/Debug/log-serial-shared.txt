@@ -1,0 +1,122 @@
+sink connector 0018FD3C interface 0018FD90
+
+	 PDES-Compliant System Modeling Language - PSML v2.0.1 
+	 PSML Runtime Framework v2.0.1 
+	 Current Release: Full Support for GL/RTL/TLM/Mixed
+	 Modeling and Simulation.
+	 Copyright (c) 2014-2023 by Shahed University,
+	 ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+	 Number of Components: 3
+	 Number of Processes: 5
+	 Number of Ports: 8
+	 Number of Connectors: 3
+	 Number of Interfaces: 3
+	 Number of Static Events: 0
+	 Simulation Until: 100 ns
+	 Execution Mode: Sequential DES
+	 Initial Capacity of Queues: 128
+********** End Of Statistics ****************************
+
+Secondary PSML elaboration phase after clustering ...
+
+	 PS2 v2.2.1 (Many-Core Release) - Sequential Protocol
+	 Parvicursor Simulation System
+	 Copyright (c) 2004-2023 by Shahed University,
+	 ALL RIGHTS RESERVED
+
+Initializing sequential simulation environment ...
+Running ...
+@time 0 s in1: 0 in2: 0
+@time 4 ns in1: 1 in2: 0
+@time 6 ns in1: 2 in2: 1
+@time 7 ns in1: 2 in2: 1
+@time 9 ns in1: 3 in2: 2
+@time 10 ns in1: 3 in2: 2
+@time 12 ns in1: 4 in2: 3
+@time 13 ns in1: 4 in2: 3
+@time 15 ns in1: 5 in2: 4
+@time 16 ns in1: 5 in2: 4
+@time 18 ns in1: 6 in2: 5
+@time 19 ns in1: 6 in2: 5
+@time 21 ns in1: 7 in2: 6
+@time 22 ns in1: 7 in2: 6
+@time 24 ns in1: 8 in2: 7
+@time 25 ns in1: 8 in2: 7
+@time 27 ns in1: 9 in2: 8
+@time 28 ns in1: 9 in2: 8
+@time 30 ns in1: 10 in2: 9
+@time 31 ns in1: 10 in2: 9
+@time 33 ns in1: 11 in2: 10
+@time 34 ns in1: 11 in2: 10
+@time 36 ns in1: 12 in2: 11
+@time 37 ns in1: 12 in2: 11
+@time 39 ns in1: 13 in2: 12
+@time 40 ns in1: 13 in2: 12
+@time 42 ns in1: 14 in2: 13
+@time 43 ns in1: 14 in2: 13
+@time 45 ns in1: 15 in2: 14
+@time 46 ns in1: 15 in2: 14
+@time 48 ns in1: 16 in2: 15
+@time 49 ns in1: 16 in2: 15
+@time 51 ns in1: 17 in2: 16
+@time 52 ns in1: 17 in2: 16
+@time 54 ns in1: 18 in2: 17
+@time 55 ns in1: 18 in2: 17
+@time 57 ns in1: 19 in2: 18
+@time 58 ns in1: 19 in2: 18
+@time 60 ns in1: 20 in2: 19
+@time 61 ns in1: 20 in2: 19
+@time 63 ns in1: 21 in2: 20
+@time 64 ns in1: 21 in2: 20
+@time 66 ns in1: 22 in2: 21
+@time 67 ns in1: 22 in2: 21
+@time 69 ns in1: 23 in2: 22
+@time 70 ns in1: 23 in2: 22
+@time 72 ns in1: 24 in2: 23
+@time 73 ns in1: 24 in2: 23
+@time 75 ns in1: 25 in2: 24
+@time 76 ns in1: 25 in2: 24
+@time 78 ns in1: 26 in2: 25
+@time 79 ns in1: 26 in2: 25
+@time 81 ns in1: 27 in2: 26
+@time 82 ns in1: 27 in2: 26
+@time 84 ns in1: 28 in2: 27
+@time 85 ns in1: 28 in2: 27
+@time 87 ns in1: 29 in2: 28
+@time 88 ns in1: 29 in2: 28
+@time 90 ns in1: 30 in2: 29
+@time 91 ns in1: 30 in2: 29
+@time 93 ns in1: 31 in2: 30
+@time 94 ns in1: 31 in2: 30
+@time 96 ns in1: 32 in2: 31
+@time 97 ns in1: 32 in2: 31
+@time 99 ns in1: 33 in2: 32
+Finalizing simulation ...
+Simulation completed (194 events in 0.00500095 secs, 38792 events/sec executed on 1 logical processor).
+
+
+---------------- Runtime Statistics ----------------
+
+user CPU time used - second: 0 microseconds: 15000
+system CPU time used - second: 0 microseconds: 0
+maximum resident set size: 3809280
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 0
+page faults (hard page faults): 968
+swaps: 1404928
+block input operations: 0
+block output operations: 73
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 0
+involuntary context switches: 28
