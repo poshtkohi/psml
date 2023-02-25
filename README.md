@@ -7,7 +7,7 @@ PSML is a parallel system-level simulation language for fast modelling and simul
 
 ![PSML conceptual framework](/assets/images/psml.png)
 
-PSML framework is completely built on top of the Parvicursor infrastracture (see https://github.com/poshtkohi/pads). PSML compiler emits native Parvicursor-compliant codes that can be compiled by any existing C++ compiler. This compiler generates an intermediate C++ code which is called Native PSML. The parallel algorithm is shown below:
+PSML framework is completely built on top of the Parvicursor infrastracture (see https://github.com/poshtkohi/pads). PSML compiler emits native Parvicursor-compliant codes that can be compiled by any existing C++ compiler. This compiler generates an intermediate C++ code which is called Native PSML. The architecture of the compiler is shown below:
 
 ![The PSML tool flow: PSML compiler suite and parallel execution framework](/assets/images/psml-compiler.png)
 
