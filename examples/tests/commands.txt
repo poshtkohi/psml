@@ -1,0 +1,16 @@
+vi /root/devel/xParvicursor/Samples/xSim2/psml.workspace.mak
+make -C /root/devel/xParvicursor/Samples/xSim2 -f psml.workspace.mak -j 24
+
+scp -r /root/devel/xSim2 node1:/root/devel/xParvicursor/Parvicursor/Parvicursor
+scp -r /root/devel/psml node1:/root/devel/xParvicursor/Parvicursor/Parvicursor
+scp -r /root/devel/tests node1:/root/devel/xParvicursor/Samples/xSim2/RTL
+
+rm -f /root/devel/xParvicursor/Samples/xSim2/RTL/tests/main_psml1.cpp
+vi /root/devel/xParvicursor/Samples/xSim2/RTL/tests/main_psml1.cpp
+
+rm -f /root/devel/xParvicursor/Samples/xSim2/RTL/tests/main_sc1.cpp
+vi /root/devel/xParvicursor/Samples/xSim2/RTL/tests/main_sc1.cpp
+
+exit
+./tests_psml.exe 1
+time ./tests_sc.exe

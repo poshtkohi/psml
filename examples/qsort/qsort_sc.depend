@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1496698855 source:/root/devel/xParvicursor/Samples/xSim2/RTL/qsort/main_sc.cpp
+	"qsort_sc.h"
+	"tb_qsort_sc.h"
+	<vector>
+	<general.h>
+	<StaticFunctions/StaticFunctions.h>
+	<System/BasicTypes/BasicTypes.h>
+	<System/Object/Object.h>
+	<System/String/String.h>
+	<System/DateTime/DateTime.h>
+	<Parvicursor/Profiler/ResourceProfiler.h>
+	<System.IO/IOException/IOException.h>
+
+1493844766 /root/devel/xParvicursor/Samples/xSim2/RTL/qsort/qsort_sc.h
+	"define_sc.h"
+
+1490389828 /root/devel/xParvicursor/Samples/xSim2/RTL/qsort/define_sc.h
+	<systemc.h>
+	<iostream>
+	<stdio.h>
+
+1493844766 /root/devel/xParvicursor/Samples/xSim2/RTL/qsort/tb_qsort_sc.h
+	"define_sc.h"
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+
+1487544268 /root/devel/xParvicursor/Parvicursor/general.h
+	<atlstr.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+
+1487544268 /root/devel/xParvicursor/Parvicursor/StaticFunctions/StaticFunctions.h
+	"../general.h"
+	"../System/BasicTypes/BasicTypes.h"
+	"../System/String/String.h"
+	<malloc.h>
+	<stdlib.h>
+	<unistd.h>
+	< time.h >
+	<sys/time.h>
+	<sys/types.h>
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/BasicTypes/BasicTypes.h
+	"../../general.h"
+
+1487545350 /root/devel/xParvicursor/Parvicursor/System/String/String.h
+	"../Object/Object.h"
+	"../BasicTypes/BasicTypes.h"
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/Object/Object.h
+	"../BasicTypes/BasicTypes.h"
+
+1487545118 /root/devel/xParvicursor/Parvicursor/System/DateTime/DateTime.h
+	"../../System/Object/Object.h"
+	"../../System/BasicTypes/BasicTypes.h"
+	<windows.h>
+	<sys/time.h>
+	<time.h>
+	<unistd.h>
+
+1487546006 /root/devel/xParvicursor/Parvicursor/Parvicursor/Profiler/ResourceProfiler.h
+	"../../general.h"
+	"../../StaticFunctions/StaticFunctions.h"
+	"../../System/BasicTypes/BasicTypes.h"
+	"../../System/Object/Object.h"
+	"../../System/Exception/Exception.h"
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1487545348 /root/devel/xParvicursor/Parvicursor/System/Exception/Exception.h
+	"../Object/Object.h"
+	"../String/String.h"
+	"../BasicTypes/BasicTypes.h"
+
+1487544882 /root/devel/xParvicursor/Parvicursor/System.IO/IOException/IOException.h
+	"../../System/Exception/Exception.h"
+	"../../System/String/String.h"
+
+1493847813 source:/root/devel/xParvicursor/Samples/xSim2/RTL/qsort/qsort_sc.cpp
+	"qsort_sc.h"
+
+1493844766 source:/root/devel/xParvicursor/Samples/xSim2/RTL/qsort/tb_qsort_sc.cpp
+	"tb_qsort_sc.h"
+

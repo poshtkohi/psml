@@ -1,0 +1,1238 @@
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# time ./tests_sc.exe
+
+        SystemC 2.3.1-Accellera --- Mar 21 2017 12:29:12
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+
+real    2m30.574s
+user    2m30.474s
+sys     0m0.022s
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 1
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Sequential DES
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+Secondary PSML elaboration phase after clustering ...
+
+         PS2 v2.2.1 (Many-Core Release) - Sequential Protocol
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+Initializing sequential simulation environment ...
+Running ...
+Finalizing simulation ...
+Simulation completed (502333920 events in 135.087 secs, 3718593 events/sec executed on 1 logical processor).
+
+
+---------------- Runtime Statistics ----------------
+
+user CPU time used - second: 135 microseconds: 112459
+system CPU time used - second: 0 microseconds: 72988
+maximum resident set size: 12636
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 2706
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 0
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 2
+involuntary context switches: 13712
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 2
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 2
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 720
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (502535549 events in 96.9411 secs, 5183924 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 2 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 156 microseconds: 917144
+system CPU time used - second: 0 microseconds: 74988
+maximum resident set size: 14468
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 3677
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 31
+involuntary context switches: 15845
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 4
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 4
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 360
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (502535129 events in 77.5642 secs, 6478958 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 4 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 215 microseconds: 118297
+system CPU time used - second: 0 microseconds: 79987
+maximum resident set size: 30204
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 7844
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 590
+involuntary context switches: 21750
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 8
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 8
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 180
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (502937007 events in 40.1486 secs, 12526874 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 8 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 177 microseconds: 327042
+system CPU time used - second: 0 microseconds: 978851
+maximum resident set size: 23648
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 5692
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 400519
+involuntary context switches: 19685
+
+#-------------------------------------------------------------------------------------
+
+[root@node1 Debug]# ./tests_psml.exe 12
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 12
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 120
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (503137316 events in 19.7246 secs, 25508081 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 12 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 168 microseconds: 20457
+system CPU time used - second: 0 microseconds: 621905
+maximum resident set size: 54932
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 14189
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 114335
+involuntary context switches: 17733
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 16
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 16
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 90
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (503338045 events in 20.3217 secs, 24768508 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 16 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 181 microseconds: 971336
+system CPU time used - second: 0 microseconds: 600908
+maximum resident set size: 64804
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 16978
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 125648
+involuntary context switches: 22194
+[root@node1 Debug]# 
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 20
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 20
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 72
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (503739923 events in 13.1924 secs, 38184071 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 20 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 185 microseconds: 645777
+system CPU time used - second: 0 microseconds: 990849
+maximum resident set size: 73248
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 18961
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 226122
+involuntary context switches: 22913
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 22
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 22
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 65
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (502334400 events in 11.2058 secs, 44828191 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 22 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 171 microseconds: 324954
+system CPU time used - second: 0 microseconds: 72988
+maximum resident set size: 13760
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 3511
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 311
+involuntary context switches: 18188
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 24
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 24
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 60
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (503940232 events in 12.0198 secs, 41925998 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 24 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 190 microseconds: 635019
+system CPU time used - second: 0 microseconds: 767883
+maximum resident set size: 72604
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 18161
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 139666
+involuntary context switches: 26233
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 36
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 36
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 40
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (507882732 events in 10.4865 secs, 48432243 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 36 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 191 microseconds: 752849
+system CPU time used - second: 0 microseconds: 900863
+maximum resident set size: 70264
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 18165
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 229640
+involuntary context switches: 179787
+
+#-------------------------------------------------------------------------------------
+
+[root@node1 Debug]# ./tests_psml.exe 40
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 40
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 36
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (504943877 events in 9.48058 secs, 53260885 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 39 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 191 microseconds: 527883
+system CPU time used - second: 0 microseconds: 650901
+maximum resident set size: 62932
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 16161
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 160181
+involuntary context switches: 163662
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 48
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 48
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 30
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (505546484 events in 9.63165 secs, 52488067 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 47 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 193 microseconds: 250621
+system CPU time used - second: 1 microseconds: 712739
+maximum resident set size: 52524
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 13242
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 553675
+involuntary context switches: 543488
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 52
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 52
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 27
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (505746793 events in 9.21276 secs, 54896314 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 52 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 189 microseconds: 288223
+system CPU time used - second: 2 microseconds: 455626
+maximum resident set size: 45464
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 11589
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 840863
+involuntary context switches: 834894
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 70
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 70
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 20
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+A termination was detected in the conservative simulation kernel.
+Finalizing simulation ...
+Simulation completed (502334400 events in 8.63348 secs, 58184443 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 69 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 174 microseconds: 848419
+system CPU time used - second: 0 microseconds: 99984
+maximum resident set size: 15460
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 3427
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 967
+involuntary context switches: 33011
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 72
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 72
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 20
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+Finalizing simulation ...
+Simulation completed (502334400 events in 7.86694 secs, 63853856 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 69 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 171 microseconds: 588914
+system CPU time used - second: 0 microseconds: 79987
+maximum resident set size: 15468
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 3424
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 943
+involuntary context switches: 31487
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 100
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 100
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 14
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+A termination was detected in the conservative simulation kernel.
+Finalizing simulation ...
+Simulation completed (502334400 events in 7.56071 secs, 66440143 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 96 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 167 microseconds: 915472
+system CPU time used - second: 0 microseconds: 90986
+maximum resident set size: 16452
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 3672
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 1302
+involuntary context switches: 30034
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 512
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 512
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 2
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+A termination was detected in the conservative simulation kernel.
+Finalizing simulation ...
+Simulation completed (502334400 events in 7.0557 secs, 71195574 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 480 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 137 microseconds: 229138
+system CPU time used - second: 0 microseconds: 118981
+maximum resident set size: 31208
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 7869
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 4700
+involuntary context switches: 25686
+
+#-------------------------------------------------------------------------------------
+[root@node1 Debug]# ./tests_psml.exe 720
+USAGE: ./tests_psml.exe <Integer value>
+
+         PDES-Compliant System Modeling Language - PSML v2.0.1 
+         PSML Runtime Framework v2.0.1 
+         Current Release: Full Support for GL/RTL/TLM/Mixed
+         Modeling and Simulation.
+         Copyright (c) 2014-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+         Number of Components: 1440
+         Number of Processes: 1440
+         Number of Ports: 5760
+         Number of Connectors: 2880
+         Number of Interfaces: 2880
+         Number of Static Events: 0
+         Simulation Until: 9999999999999 ns
+         Execution Mode: Parallel DES
+         Number of Logical Processors: 720
+         Partitioner: StronglyConnectedComponent
+         Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+         PS2 v2.2.1 (Many-Core Release)
+         Conservative Protocol with Deadlock Detection & Recovery
+         Parvicursor Simulation System
+         Copyright (c) 2004-2023 by Shahed University,
+         ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+StronglyConnectedComponentPartitioner::BuildGraph()
+numOfVertices 1440
+StronglyConnectedComponentPartitioner::GenerateDotGraph() filename scc-main.dot
+perCoreAvg 2
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+A termination was detected in the conservative simulation kernel.
+Finalizing simulation ...
+Simulation completed (502334400 events in 5.72056 secs, 87812178 events/sec, 0 deadlocks, 0 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 480 logical processors with 24 physical cores).
+
+
+user CPU time used - second: 139 microseconds: 597777
+system CPU time used - second: 0 microseconds: 120981
+maximum resident set size: 31216
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 7876
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 4736
+involuntary context switches: 26097
+#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------

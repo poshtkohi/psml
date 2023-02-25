@@ -1,0 +1,5 @@
+digraph g
+{
+	forcelabels=true;
+	node [margin=0 fontcolor=blue fontsize=20 width=0.5 shape=circle style=filled];
+}

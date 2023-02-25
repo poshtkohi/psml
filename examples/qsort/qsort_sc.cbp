@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="qsort_sc" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/qsort_sc.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="bin/Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-w" />
+					<Add option="-march=native" />
+					<Add directory="../../../../Parvicursor" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../../../Parvicursor" />
+					<Add directory="../../../../systemc-2.3.1/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsystemc" />
+					<Add library="../../../../ParvicursorLib/bin/Debug/ParvicursorLib.lib" />
+					<Add directory="../../../../../systemc-2.3.1/buildtree/bin/lib-linux" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="define_sc.h" />
+		<Unit filename="main_sc.cpp" />
+		<Unit filename="qsort_sc.cpp" />
+		<Unit filename="qsort_sc.h" />
+		<Unit filename="tb_qsort_sc.cpp" />
+		<Unit filename="tb_qsort_sc.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
