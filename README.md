@@ -13,7 +13,7 @@ PSML framework is completely built on top of the Parvicursor infrastracture (see
 
 It shows the PSML tool flow and parallel execution toolset. A PSML model is first compiled and then executed on top of the parallel computing platform. There are several tools, components and runtime libraries, which resides in the source code directory.
 
-This repository contains a conservatively parallel implementation of the Native PSML language in tandem with its parallel simulation kernel both crafted in C++17. This package also provides several PSML examples. I wrote it while working as a researcher in the High-Performance Computing Centre (HPCC) at Shahed University as part of the following journal article:
+This repository contains a conservatively parallel implementation of the Native PSML language in tandem with its parallel simulation kernel both crafted in C++17. This package also provides several PSML examples. I developed it while working as a researcher in the High-Performance Computing Centre (HPCC) at Shahed University as part of the following journal article:
 
 [1] A. Poshtkohi, M. B. Ghaznavi-Ghoushchi, K. Saghafi, _PSML: Parallel System Modeling and Simulation Language for Electronic System Level_, Journal of Supercomputing, 75:5 (2019), 2691–2724. doi: 10.1007/s11227-018-2682-1
 
