@@ -1,7 +1,9 @@
 # PSML: parallel system modelling and simulation language for electronic system level
 
 PSML is a parallel system-level simulation language for fast modelling and simulation of computers systems, in particular, digital electronic systems. This language, along with the collection of introduced tools, provides the ability to simulate models at different levels of abstraction by using a wide range of PDES synchronisation protocols in order for the designer to leverage the massive parallelism of today’s multi-core and many-core platforms. One of the primary goals of PSML language is to enable asynchronous, explicitly parallel system-level modelling—that is, real parallel modelling of systems above the RTL that might be implemented in hardware, software or a combination of the two. Of course, RTL and GL modelling are also possible in PSML. The PSML conceptual framework is shown below:
+
 ![PSML conceptual framework](/assets/images/psml.png)
+
 PSML framework is completely built on top of the Parvicursor. PSML compiler emits native Parvicursor-compliant codes that can be compiled by any existing C++ compiler. This compiler generates an intermediate C++ code which is called Native PSML. The parallel algorithm is shown below:
 
 ![The PSML tool flow: PSML compiler suite and parallel execution framework](/assets/images/psml-compiler.png)
