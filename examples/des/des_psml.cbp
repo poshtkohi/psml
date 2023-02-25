@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="des_psml" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/des_psml.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="bin/Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-O3" />
+					<Add option="-w" />
+					<Add option="-march=native" />
+					<Add directory="../../../../Parvicursor" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../../../Parvicursor" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lpthread -luuid -ldl -lm -lcryptopp" />
+					<Add library="../../../../psml/bin/Debug/psml.lib" />
+					<Add library="../../../../xSim2Lib/bin/Debug/xSim2Lib.lib" />
+					<Add library="../../../../ParvicursorLib/bin/Debug/ParvicursorLib.lib" />
+					<Add directory="../../../../psml/bin/Debug/" />
+					<Add directory="../../../../xSim2Lib/bin/Debug/" />
+					<Add directory="../../../../ParvicursorLib/bin/Debug/" />
+					<Add directory="../../../../Parvicursor/System.Threading/Thread/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="psml/CorePartitioner.cpp" />
+		<Unit filename="psml/CorePartitioner.h" />
+		<Unit filename="psml/des.cpp" />
+		<Unit filename="psml/des.h" />
+		<Unit filename="psml/key_gen.cpp" />
+		<Unit filename="psml/key_gen.h" />
+		<Unit filename="psml/main.cpp" />
+		<Unit filename="psml/round.cpp" />
+		<Unit filename="psml/round.h" />
+		<Unit filename="psml/s1.cpp" />
+		<Unit filename="psml/s1.h" />
+		<Unit filename="psml/s2.cpp" />
+		<Unit filename="psml/s2.h" />
+		<Unit filename="psml/s3.cpp" />
+		<Unit filename="psml/s3.h" />
+		<Unit filename="psml/s4.cpp" />
+		<Unit filename="psml/s4.h" />
+		<Unit filename="psml/s5.cpp" />
+		<Unit filename="psml/s5.h" />
+		<Unit filename="psml/s6.cpp" />
+		<Unit filename="psml/s6.h" />
+		<Unit filename="psml/s7.cpp" />
+		<Unit filename="psml/s7.h" />
+		<Unit filename="psml/s8.cpp" />
+		<Unit filename="psml/s8.h" />
+		<Unit filename="psml/tb.cpp" />
+		<Unit filename="psml/tb.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

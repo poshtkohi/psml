@@ -1,0 +1,162 @@
+
+	 PDES-Compliant System Modeling Language - PSML v2.0.1 
+	 PSML Runtime Framework v2.0.1 
+	 Current Release: Full Support for GL/RTL/TLM/Mixed
+	 Modeling and Simulation.
+	 Copyright (c) 2014-2023 by Shahed University,
+	 ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+	 Number of Components: 13
+	 Number of Processes: 16
+	 Number of Ports: 90
+	 Number of Connectors: 43
+	 Number of Interfaces: 43
+	 Number of Static Events: 0
+	 Simulation Until: 100 ns
+	 Execution Mode: Sequential DES
+	 Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+Secondary PSML elaboration phase after clustering ...
+
+	 PS2 v2.2.1 (Many-Core Release) - Sequential Protocol
+	 Parvicursor Simulation System
+	 Copyright (c) 2004-2023 by Shahed University,
+	 ALL RIGHTS RESERVED
+
+Initializing sequential simulation environment ...
+Running ...
+@time 0 s in des::des_proc data_o_var 0
+@time 4 ns in des::des_proc data_o_var 0
+@time 6 ns in des::des_proc data_o_var 0
+@time 6 ns in des::des_proc data_o_var 528932890500471443
+@time 6 ns in des::des_proc data_o_var 528932890500471443
+@time 8 ns in des::des_proc data_o_var 528932890500471443
+@time 8 ns in des::des_proc data_o_var 2286240103641325667
+@time 10 ns in des::des_proc data_o_var 2286240103641325667
+@time 10 ns in des::des_proc data_o_var 9184500541920793731
+@time 12 ns in des::des_proc data_o_var 9184500541920793731
+@time 12 ns in des::des_proc data_o_var 16982735738308525143
+@time 14 ns in des::des_proc data_o_var 16982735738308525143
+@time 14 ns in des::des_proc data_o_var 15225698483135293866
+@time 16 ns in des::des_proc data_o_var 15225698483135293866
+@time 16 ns in des::des_proc data_o_var 12091065980792472068
+@time 18 ns in des::des_proc data_o_var 12091065980792472068
+@time 18 ns in des::des_proc data_o_var 5448288961801830476
+@time 20 ns in des::des_proc data_o_var 5448288961801830476
+@time 20 ns in des::des_proc data_o_var 13990853251622666380
+@time 22 ns in des::des_proc data_o_var 13990853251622666380
+@time 22 ns in des::des_proc data_o_var 13835876778828648476
+@time 24 ns in des::des_proc data_o_var 13835876778828648476
+@time 24 ns in des::des_proc data_o_var 10395575108018417789
+@time 26 ns in des::des_proc data_o_var 10395575108018417789
+@time 26 ns in des::des_proc data_o_var 7321820219200598270
+@time 28 ns in des::des_proc data_o_var 7321820219200598270
+@time 28 ns in des::des_proc data_o_var 14590726429498405032
+@time 30 ns in des::des_proc data_o_var 14590726429498405032
+@time 30 ns in des::des_proc data_o_var 9347247994696298564
+@time 32 ns in des::des_proc data_o_var 9347247994696298564
+@time 32 ns in des::des_proc data_o_var 1324464322679010520
+@time 34 ns in des::des_proc data_o_var 1324464322679010520
+@time 34 ns in des::des_proc data_o_var 8108370283863145700
+@time 36 ns in des::des_proc data_o_var 8108370283863145700
+@time 36 ns in des::des_proc data_o_var 16527414540363165132
+@time 38 ns in des::des_proc data_o_var 16527414540363165132
+@time 38 ns in des::des_proc data_o_var 14915454672249872268
+@time 40 ns in des::des_proc data_o_var 9937751865827129945
+@time 40 ns in des::des_proc data_o_var 9937751865827129945
+@time 42 ns in des::des_proc data_o_var 9937751865827129945
+@time 42 ns in des::des_proc data_o_var 1120312757621331370
+@time 42 ns in des::des_proc data_o_var 1120312757621331370
+@time 44 ns in des::des_proc data_o_var 1120312757621331370
+@time 44 ns in des::des_proc data_o_var 6853713495819958805
+@time 46 ns in des::des_proc data_o_var 6853713495819958805
+@time 46 ns in des::des_proc data_o_var 18338593262925526331
+@time 48 ns in des::des_proc data_o_var 18338593262925526331
+@time 48 ns in des::des_proc data_o_var 16789026688406728566
+@time 50 ns in des::des_proc data_o_var 16789026688406728566
+@time 50 ns in des::des_proc data_o_var 14176313429170802616
+@time 52 ns in des::des_proc data_o_var 14176313429170802616
+@time 52 ns in des::des_proc data_o_var 14495283627605286513
+@time 54 ns in des::des_proc data_o_var 14495283627605286513
+@time 54 ns in des::des_proc data_o_var 10543559314884323555
+@time 56 ns in des::des_proc data_o_var 10543559314884323555
+@time 56 ns in des::des_proc data_o_var 7270000269539529922
+@time 58 ns in des::des_proc data_o_var 7270000269539529922
+@time 58 ns in des::des_proc data_o_var 11085739337118906577
+@time 60 ns in des::des_proc data_o_var 11085739337118906577
+@time 60 ns in des::des_proc data_o_var 2879189065970132451
+@time 62 ns in des::des_proc data_o_var 2879189065970132451
+@time 62 ns in des::des_proc data_o_var 5758373806846266306
+@time 64 ns in des::des_proc data_o_var 5758373806846266306
+@time 64 ns in des::des_proc data_o_var 14669052741905318852
+@time 66 ns in des::des_proc data_o_var 14669052741905318852
+@time 66 ns in des::des_proc data_o_var 14299407358420062860
+@time 68 ns in des::des_proc data_o_var 14299407358420062860
+@time 68 ns in des::des_proc data_o_var 11359048456064562265
+@time 70 ns in des::des_proc data_o_var 11359048456064562265
+@time 70 ns in des::des_proc data_o_var 8000333403097135282
+@time 72 ns in des::des_proc data_o_var 8000333403097135282
+@time 72 ns in des::des_proc data_o_var 10037904540969395488
+@time 74 ns in recv() 10037904540969395488
+@time 74 ns in des::des_proc data_o_var 10037904540969395488
+@time 74 ns in des::des_proc data_o_var 255241434575523605
+@time 76 ns in des::des_proc data_o_var 4834012113124904559
+@time 76 ns in des::des_proc data_o_var 4834012113124904559
+@time 78 ns in des::des_proc data_o_var 4834012113124904559
+@time 78 ns in des::des_proc data_o_var 5425853454468470197
+@time 78 ns in des::des_proc data_o_var 5425853454468470197
+@time 80 ns in des::des_proc data_o_var 5425853454468470197
+@time 80 ns in des::des_proc data_o_var 9785501365244984942
+@time 82 ns in des::des_proc data_o_var 9785501365244984942
+@time 82 ns in des::des_proc data_o_var 2273027049143269512
+@time 84 ns in des::des_proc data_o_var 2273027049143269512
+@time 84 ns in des::des_proc data_o_var 4274977408211722256
+@time 86 ns in des::des_proc data_o_var 4274977408211722256
+@time 86 ns in des::des_proc data_o_var 8548921202228270388
+@time 88 ns in des::des_proc data_o_var 8548921202228270388
+@time 88 ns in des::des_proc data_o_var 12490730272459468393
+@time 90 ns in des::des_proc data_o_var 12490730272459468393
+@time 90 ns in des::des_proc data_o_var 2233714231499557250
+@time 92 ns in des::des_proc data_o_var 2233714231499557250
+@time 92 ns in des::des_proc data_o_var 7619580197839128085
+@time 94 ns in des::des_proc data_o_var 7619580197839128085
+@time 94 ns in des::des_proc data_o_var 15215775176053480558
+@time 96 ns in des::des_proc data_o_var 15215775176053480558
+@time 96 ns in des::des_proc data_o_var 12038918724572347788
+@time 98 ns in des::des_proc data_o_var 12038918724572347788
+@time 98 ns in des::des_proc data_o_var 5432745030841122392
+Finalizing simulation ...
+Simulation completed (3731 events in 0.0301709 secs, 123662 events/sec executed on 1 logical processor).
+
+
+---------------- Runtime Statistics ----------------
+
+user CPU time used - second: 0 microseconds: 218000
+system CPU time used - second: 0 microseconds: 65000
+maximum resident set size: 8132
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 2908
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 16
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 0
+involuntary context switches: 10
+Spacetime graph size 1968
+SpaceTimeGraph::GenerateDotGraph()
+SpaceTimeGraph::GeneratePriorities()
+SpaceTimeGraph::GenerateStgFileForParallelSimulation()
+
+numberOfActivatedProcesses: 2412

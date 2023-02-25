@@ -1,0 +1,618 @@
+
+	 PDES-Compliant System Modeling Language - PSML v2.0.1 
+	 PSML Runtime Framework v2.0.1 
+	 Current Release: Full Support for GL/RTL/TLM/Mixed
+	 Modeling and Simulation.
+	 Copyright (c) 2014-2023 by Shahed University,
+	 ALL RIGHTS RESERVED
+
+
+Preparing system-level simulation runtime environment ...
+Primary PSML elaboration phase ...
+
+
+********** Model and Pre-Simulation Statistics **********
+	 Number of Components: 13
+	 Number of Processes: 16
+	 Number of Ports: 90
+	 Number of Connectors: 43
+	 Number of Interfaces: 43
+	 Number of Static Events: 0
+	 Simulation Until: 1 us
+	 Execution Mode: Parallel DES
+	 Number of Logical Processors: 3
+	 Partitioner: RoundRobin
+	 Initial Capacity of Queues: 1
+********** End Of Statistics ****************************
+
+
+	 PS2 v2.2.1 (Many-Core Release)
+	 Conservative Protocol with Deadlock Detection & Recovery
+	 Parvicursor Simulation System
+	 Copyright (c) 2004-2023 by Shahed University,
+	 ALL RIGHTS RESERVED
+
+
+Initializing parallel simulation environment ...
+PS2 clustering phase ...
+------------------------------------
+Partitioning Information:
+Number of Partitions: 3
+The Number of Objects in Partition 0 is : 6
+The Number of Objects in Partition 1 is : 5
+The Number of Objects in Partition 2 is : 5
+------------------------------------------------
+Cluster Information 0
+Number of Input Channels: 2
+Number of Output Channels (Destination Clusters): 2
+Destination Clusters' ID: 1, 2, 
+
+------------------------------------------------
+Cluster Information 1
+Number of Input Channels: 2
+Number of Output Channels (Destination Clusters): 2
+Destination Clusters' ID: 0, 2, 
+
+------------------------------------------------
+Cluster Information 2
+Number of Input Channels: 2
+Number of Output Channels (Destination Clusters): 2
+Destination Clusters' ID: 0, 1, 
+
+------------------------------------------------
+DeadlockDetectionSimulationManager::GenerateDotGraph() filename partitioning.dot
+Secondary PSML elaboration phase after clustering ...
+PS2 Running ...
+@time 2 ns in des::reg_signal() 0
+@time 4 ns in des::reg_signal() 0
+@time 6 ns in des::reg_signal() 528932890500471443
+@time 8 ns in des::reg_signal() 2286240103641325667
+@time 10 ns in des::reg_signal() 9184518134111031426
+@time 12 ns in des::reg_signal() 13524305474977047569
+@time 14 ns in des::reg_signal() 2818120166452317286
+@time 16 ns in des::reg_signal() 5706877649624997065
+@time 18 ns in des::reg_signal() 11197576766112098707
+@time 20 ns in des::reg_signal() 8272762045654357618
+@time 22 ns in des::reg_signal() 11568783646954339552
+@time 24 ns in des::reg_signal() 1177733757056744596
+@time 26 ns in des::reg_signal() 6964051757695887736
+@time 28 ns in des::reg_signal() 14995743328759153393
+@time 30 ns in des::reg_signal() 12786417680620668151
+@time 32 ns in des::reg_signal() 8354658896846178799
+@time 34 ns in des::reg_signal() 12966769328675739531
+@time 36 ns in des::reg_signal() 8333401299984842247
+@time 36 ns in recv() 8333401299984842247
+@time 38 ns in des::reg_signal() 16598352795992583182
+@time 40 ns in des::reg_signal() 10999588864477089033
+@time 42 ns in des::reg_signal() 1120312757621331370
+@time 44 ns in des::reg_signal() 6853713495819958805
+@time 46 ns in des::reg_signal() 13726907055506993466
+@time 48 ns in des::reg_signal() 4371829129735841648
+@time 50 ns in des::reg_signal() 7496156406819082209
+@time 52 ns in des::reg_signal() 14130945443347337095
+@time 54 ns in des::reg_signal() 15952375790329159194
+@time 56 ns in des::reg_signal() 16992475922788314469
+@time 58 ns in des::reg_signal() 9791628099241943003
+@time 60 ns in des::reg_signal() 5657844419070032882
+@time 62 ns in des::reg_signal() 15639930717955221429
+@time 64 ns in des::reg_signal() 12919738194171629183
+@time 66 ns in des::reg_signal() 7104801825913510127
+@time 68 ns in des::reg_signal() 13846232569231597775
+@time 70 ns in des::reg_signal() 9231925493650740639
+@time 72 ns in des::reg_signal() 4645606710802168623
+@time 72 ns in recv() 4645606710802168623
+@time 74 ns in des::reg_signal() 10421616733727258458
+@time 76 ns in des::reg_signal() 3767084312263703520
+@time 78 ns in des::reg_signal() 5425853454468470197
+@time 80 ns in des::reg_signal() 9785501365244984942
+@time 82 ns in des::reg_signal() 2277548309659384968
+@time 84 ns in des::reg_signal() 7652730021141015808
+@time 86 ns in des::reg_signal() 14155851023421443845
+@time 88 ns in des::reg_signal() 14764868943453882890
+@time 90 ns in des::reg_signal() 15627386744738676801
+@time 92 ns in des::reg_signal() 11955746052961473751
+@time 94 ns in des::reg_signal() 6595449574721677759
+@time 96 ns in des::reg_signal() 12055918444789859899
+@time 98 ns in des::reg_signal() 6600908125993113698
+@time 100 ns in des::reg_signal() 12067137908786536645
+@time 102 ns in des::reg_signal() 2215278404284661919
+@time 104 ns in des::reg_signal() 4358705573478438250
+@time 106 ns in des::reg_signal() 7547525350389022672
+@time 108 ns in des::reg_signal() 9311527179712199413
+@time 108 ns in recv() 9311527179712199413
+@time 110 ns in des::reg_signal() 4783778281383239915
+@time 112 ns in des::reg_signal() 9351407166502928838
+@time 114 ns in des::reg_signal() 6539903089782505031
+@time 116 ns in des::reg_signal() 11943774337744399839
+@time 118 ns in des::reg_signal() 1136273391701773242
+@time 120 ns in des::reg_signal() 2223833744097006180
+@time 122 ns in des::reg_signal() 8694210351939101128
+@time 124 ns in des::reg_signal() 11890986058178954900
+@time 126 ns in des::reg_signal() 5623458415222413372
+@time 128 ns in des::reg_signal() 9804409234723615868
+@time 130 ns in des::reg_signal() 4982604962951604397
+@time 132 ns in des::reg_signal() 15716112307085393951
+@time 134 ns in des::reg_signal() 17375345310995349547
+@time 136 ns in des::reg_signal() 11691912328193835334
+@time 138 ns in des::reg_signal() 4959599676036961241
+@time 140 ns in des::reg_signal() 10226627201200218786
+@time 142 ns in des::reg_signal() 5660425042882774020
+@time 144 ns in des::reg_signal() 11316411345433365773
+@time 144 ns in recv() 11316411345433365773
+@time 146 ns in des::reg_signal() 7931930791402147354
+@time 148 ns in des::reg_signal() 11040511859051547952
+@time 150 ns in des::reg_signal() 8855148744352553413
+@time 152 ns in des::reg_signal() 11661752376108496847
+@time 154 ns in des::reg_signal() 215305194313248667
+@time 156 ns in des::reg_signal() 335940972643471203
+@time 158 ns in des::reg_signal() 6436580657972022162
+@time 160 ns in des::reg_signal() 12098542451899516465
+@time 162 ns in des::reg_signal() 5448231598908016690
+@time 164 ns in des::reg_signal() 9469108053365232997
+@time 166 ns in des::reg_signal() 5158393031679049615
+@time 168 ns in des::reg_signal() 15793497273670364683
+@time 170 ns in des::reg_signal() 12830628046421986643
+@time 172 ns in des::reg_signal() 3538243141684301746
+@time 174 ns in des::reg_signal() 7076826054003285872
+@time 176 ns in des::reg_signal() 9241065233155422900
+@time 178 ns in des::reg_signal() 6082382797026485305
+@time 180 ns in des::reg_signal() 13656599464619530547
+@time 180 ns in recv() 13656599464619530547
+@time 182 ns in des::reg_signal() 9105902377891505958
+@time 184 ns in des::reg_signal() 16841583190788692492
+@time 186 ns in des::reg_signal() 3145913572194599418
+@time 188 ns in des::reg_signal() 4845907793337635761
+@time 190 ns in des::reg_signal() 15457813699592169331
+@time 192 ns in des::reg_signal() 17008791797836943027
+@time 194 ns in des::reg_signal() 15566614357865925731
+@time 196 ns in des::reg_signal() 12758266549696223443
+@time 198 ns in des::reg_signal() 2758994551943788006
+@time 200 ns in des::reg_signal() 6666036198372600792
+@time 202 ns in des::reg_signal() 16735741671368131237
+@time 204 ns in des::reg_signal() 13967576156214854731
+@time 206 ns in des::reg_signal() 14050625373332982146
+@time 208 ns in des::reg_signal() 13977950515870402385
+@time 210 ns in des::reg_signal() 15182566224878046947
+@time 212 ns in des::reg_signal() 16438871198050426070
+@time 214 ns in des::reg_signal() 15636890258613024936
+@time 216 ns in des::reg_signal() 16363435596473595200
+@time 216 ns in recv() 16363435596473595200
+@time 218 ns in des::reg_signal() 15450838637479246465
+@time 220 ns in des::reg_signal() 13603557830592852291
+@time 222 ns in des::reg_signal() 3654862709460076168
+@time 224 ns in des::reg_signal() 2604569183714105680
+@time 226 ns in des::reg_signal() 6655128291298440097
+@time 228 ns in des::reg_signal() 13616231886457792259
+@time 230 ns in des::reg_signal() 7920817537717541447
+@time 232 ns in des::reg_signal() 9986902848731639963
+@time 234 ns in des::reg_signal() 6139926048331575415
+@time 236 ns in des::reg_signal() 13780975809688057006
+@time 238 ns in des::reg_signal() 7723577375488375816
+@time 240 ns in des::reg_signal() 10906403501871528980
+@time 242 ns in des::reg_signal() 8067843808166258813
+@time 244 ns in des::reg_signal() 9996999918242973118
+@time 246 ns in des::reg_signal() 5794431424587356713
+@time 248 ns in des::reg_signal() 13098623910898016535
+@time 250 ns in des::reg_signal() 7677307355482162815
+@time 252 ns in des::reg_signal() 15065341945985719786
+@time 252 ns in recv() 15065341945985719786
+@time 254 ns in des::reg_signal() 16588346346941643664
+@time 256 ns in des::reg_signal() 11037858964056434213
+@time 258 ns in des::reg_signal() 12631678482417149756
+@time 260 ns in des::reg_signal() 1124907368799772216
+@time 262 ns in des::reg_signal() 6498034097456905328
+@time 264 ns in des::reg_signal() 17584900950072671664
+@time 266 ns in des::reg_signal() 18253151312315510560
+@time 268 ns in des::reg_signal() 13452311004245122624
+@time 270 ns in des::reg_signal() 3544732578436525268
+@time 272 ns in des::reg_signal() 8242299715236469996
+@time 274 ns in des::reg_signal() 16200585406804539532
+@time 276 ns in des::reg_signal() 10428441435567830361
+@time 278 ns in des::reg_signal() 2320441668545637366
+@time 280 ns in des::reg_signal() 105464672140908476
+@time 282 ns in des::reg_signal() 215411142588021560
+@time 284 ns in des::reg_signal() 1291081282263545440
+@time 286 ns in des::reg_signal() 7120753406502168720
+@time 288 ns in des::reg_signal() 9562267830942470193
+@time 288 ns in recv() 9562267830942470193
+@time 290 ns in des::reg_signal() 5558280386391581030
+@time 292 ns in des::reg_signal() 15798803826465052621
+@time 294 ns in des::reg_signal() 17256153700941903642
+@time 296 ns in des::reg_signal() 16064702410246811429
+@time 298 ns in des::reg_signal() 12459145905590492938
+@time 300 ns in des::reg_signal() 616605438878857732
+@time 302 ns in des::reg_signal() 1245645270842094920
+@time 304 ns in des::reg_signal() 3713172314999843536
+@time 306 ns in des::reg_signal() 8505801188297855408
+@time 308 ns in des::reg_signal() 17077662413814817392
+@time 310 ns in des::reg_signal() 10322553414993612964
+@time 312 ns in des::reg_signal() 834065433634038108
+@time 314 ns in des::reg_signal() 1686140933515875309
+@time 316 ns in des::reg_signal() 8036815548113954714
+@time 318 ns in des::reg_signal() 15781830329851121268
+@time 320 ns in des::reg_signal() 13189041541245966840
+@time 322 ns in des::reg_signal() 3404936403324859125
+@time 324 ns in des::reg_signal() 848038378476139770
+@time 324 ns in recv() 848038378476139770
+@time 326 ns in des::reg_signal() 6326687239874722020
+@time 328 ns in des::reg_signal() 12378360216162677961
+@time 330 ns in des::reg_signal() 5906300257869687122
+@time 332 ns in des::reg_signal() 12082832913325478624
+@time 334 ns in des::reg_signal() 5645460357097104517
+@time 336 ns in des::reg_signal() 15917260970916121870
+@time 338 ns in des::reg_signal() 18274182657419664925
+@time 340 ns in des::reg_signal() 18047512010550475903
+@time 342 ns in des::reg_signal() 16478188693630790826
+@time 344 ns in des::reg_signal() 14432227969629227088
+@time 346 ns in des::reg_signal() 15330927932574684593
+@time 348 ns in des::reg_signal() 13660718811437181795
+@time 350 ns in des::reg_signal() 3132306142780065671
+@time 352 ns in des::reg_signal() 477485648518663007
+@time 354 ns in des::reg_signal() 5494599720688915451
+@time 356 ns in des::reg_signal() 15623408131876022002
+@time 358 ns in des::reg_signal() 11593312810566913188
+@time 360 ns in des::reg_signal() 1497289881483888732
+@time 360 ns in recv() 1497289881483888732
+@time 362 ns in des::reg_signal() 2994531161096700141
+@time 364 ns in des::reg_signal() 6275833388651152543
+@time 366 ns in des::reg_signal() 3556312058171833582
+@time 368 ns in des::reg_signal() 8643829230105229725
+@time 370 ns in des::reg_signal() 12677098123703269182
+@time 372 ns in des::reg_signal() 2223764683588975224
+@time 374 ns in des::reg_signal() 4178735036596953509
+@time 376 ns in des::reg_signal() 3945126683987366475
+@time 378 ns in des::reg_signal() 4353444509559009747
+@time 380 ns in des::reg_signal() 2918337140714009575
+@time 382 ns in des::reg_signal() 6125273733535692682
+@time 384 ns in des::reg_signal() 12612313450346560085
+@time 386 ns in des::reg_signal() 819573511203270843
+@time 388 ns in des::reg_signal() 4899705065351046246
+@time 390 ns in des::reg_signal() 9420241558647445965
+@time 392 ns in des::reg_signal() 4694671141578094495
+@time 394 ns in des::reg_signal() 14058444863159171642
+@time 396 ns in des::reg_signal() 10836508623519920437
+@time 396 ns in recv() 10836508623519920437
+@time 398 ns in des::reg_signal() 4072101093469614974
+@time 400 ns in des::reg_signal() 7301269552852940537
+@time 402 ns in des::reg_signal() 12633412573346700723
+@time 404 ns in des::reg_signal() 5382254316127022946
+@time 406 ns in des::reg_signal() 14137404603643252436
+@time 408 ns in des::reg_signal() 14443334821441752572
+@time 410 ns in des::reg_signal() 13952737397481525160
+@time 412 ns in des::reg_signal() 14003148269126082113
+@time 414 ns in des::reg_signal() 13974123551952054658
+@time 416 ns in des::reg_signal() 15548712551910933061
+@time 418 ns in des::reg_signal() 13439073665503138254
+@time 420 ns in des::reg_signal() 8147865798640088985
+@time 422 ns in des::reg_signal() 11995132864731234099
+@time 424 ns in des::reg_signal() 5547179657855971127
+@time 426 ns in des::reg_signal() 14547546281105558378
+@time 428 ns in des::reg_signal() 14038452074784756352
+@time 430 ns in des::reg_signal() 10709883727424009301
+@time 432 ns in des::reg_signal() 4396389643599510698
+@time 432 ns in recv() 4396389643599510698
+@time 434 ns in des::reg_signal() 8886514852221991253
+@time 436 ns in des::reg_signal() 12030025123941135274
+@time 438 ns in des::reg_signal() 5602531443722698896
+@time 440 ns in des::reg_signal() 9980035134357606432
+@time 442 ns in des::reg_signal() 73322294920820053
+@time 444 ns in des::reg_signal() 435151789436317630
+@time 446 ns in des::reg_signal() 1731336343035910764
+@time 448 ns in des::reg_signal() 6992087422332252557
+@time 450 ns in des::reg_signal() 13979614968265209355
+@time 452 ns in des::reg_signal() 10376895499919538262
+@time 454 ns in des::reg_signal() 8382610338022847725
+@time 456 ns in des::reg_signal() 17918137509141589199
+@time 458 ns in des::reg_signal() 17385115104008035466
+@time 460 ns in des::reg_signal() 12938205607254288448
+@time 462 ns in des::reg_signal() 7160212077837189316
+@time 464 ns in des::reg_signal() 9433151041260552589
+@time 466 ns in des::reg_signal() 1554799363223586590
+@time 468 ns in des::reg_signal() 7667035137512921901
+@time 468 ns in recv() 7667035137512921901
+@time 470 ns in des::reg_signal() 10491644314367288091
+@time 472 ns in des::reg_signal() 7383240167571034915
+@time 474 ns in des::reg_signal() 453509632822077383
+@time 476 ns in des::reg_signal() 632299889416899535
+@time 478 ns in des::reg_signal() 6109281987743781850
+@time 480 ns in des::reg_signal() 18200540775644018613
+@time 482 ns in des::reg_signal() 17023213902812249914
+@time 484 ns in des::reg_signal() 15865448800370556720
+@time 486 ns in des::reg_signal() 13645514694406355808
+@time 488 ns in des::reg_signal() 4300153381076154069
+@time 490 ns in des::reg_signal() 3984415932087741630
+@time 492 ns in des::reg_signal() 3446022395094785084
+@time 494 ns in des::reg_signal() 6602389447685302632
+@time 496 ns in des::reg_signal() 16579118525750630288
+@time 498 ns in des::reg_signal() 10988194574851764020
+@time 500 ns in des::reg_signal() 8137935720084052588
+@time 502 ns in des::reg_signal() 16256541939656041865
+@time 504 ns in des::reg_signal() 15231448301467667014
+@time 504 ns in recv() 15231448301467667014
+@time 506 ns in des::reg_signal() 13170204401562420617
+@time 508 ns in des::reg_signal() 7827162967632334406
+@time 510 ns in des::reg_signal() 9676437117328999050
+@time 512 ns in des::reg_signal() 920490814387819797
+@time 514 ns in des::reg_signal() 1862637679588507242
+@time 516 ns in des::reg_signal() 4031710363644325057
+@time 518 ns in des::reg_signal() 3361452704966559959
+@time 520 ns in des::reg_signal() 2111571162010534075
+@time 522 ns in des::reg_signal() 4242260582077662259
+@time 524 ns in des::reg_signal() 3601496905676638242
+@time 526 ns in des::reg_signal() 8351712088884282388
+@time 528 ns in des::reg_signal() 12019662977495207020
+@time 530 ns in des::reg_signal() 632991603079252185
+@time 532 ns in des::reg_signal() 4647974579273532854
+@time 534 ns in des::reg_signal() 14141541977753866104
+@time 536 ns in des::reg_signal() 15890074153627589617
+@time 538 ns in des::reg_signal() 13279093941589534643
+@time 540 ns in des::reg_signal() 8467227420909214262
+@time 540 ns in recv() 8467227420909214262
+@time 542 ns in des::reg_signal() 18016441354497503336
+@time 544 ns in des::reg_signal() 11627876323927744964
+@time 546 ns in des::reg_signal() 8179341776101357306
+@time 548 ns in des::reg_signal() 16303286845063837936
+@time 550 ns in des::reg_signal() 10720188148957914292
+@time 552 ns in des::reg_signal() 7911347577155176569
+@time 554 ns in des::reg_signal() 10346339723772151267
+@time 556 ns in des::reg_signal() 1044671320507456198
+@time 558 ns in des::reg_signal() 990742554818732168
+@time 560 ns in des::reg_signal() 6521114835385565189
+@time 562 ns in des::reg_signal() 13041103844075816266
+@time 564 ns in des::reg_signal() 9076664096043880133
+@time 566 ns in des::reg_signal() 13451292829249490126
+@time 568 ns in des::reg_signal() 3821653975067314381
+@time 570 ns in des::reg_signal() 3121972027686179034
+@time 572 ns in des::reg_signal() 1348444758772593056
+@time 574 ns in des::reg_signal() 3849473700522177089
+@time 576 ns in des::reg_signal() 3354098273265279442
+@time 576 ns in recv() 3354098273265279442
+@time 578 ns in des::reg_signal() 5208725745474782176
+@time 580 ns in des::reg_signal() 9620596978572105424
+@time 582 ns in des::reg_signal() 7810148639388399671
+@time 584 ns in des::reg_signal() 14741232505377894718
+@time 586 ns in des::reg_signal() 10192724275689567805
+@time 588 ns in des::reg_signal() 862067020054736254
+@time 590 ns in des::reg_signal() 6334628242622979004
+@time 592 ns in des::reg_signal() 16992993951447397241
+@time 594 ns in des::reg_signal() 10949142310571484147
+@time 596 ns in des::reg_signal() 9124945419446588146
+@time 598 ns in des::reg_signal() 13641868380577625572
+@time 600 ns in des::reg_signal() 3456334894318808797
+@time 602 ns in des::reg_signal() 5476017178494147050
+@time 604 ns in des::reg_signal() 15490171866180252372
+@time 606 ns in des::reg_signal() 12458186302239057084
+@time 608 ns in des::reg_signal() 6759034006936049725
+@time 610 ns in des::reg_signal() 13445992747448856894
+@time 612 ns in des::reg_signal() 3834695539493299769
+@time 612 ns in recv() 3834695539493299769
+@time 614 ns in des::reg_signal() 3403357408922881139
+@time 616 ns in des::reg_signal() 5631573506829377015
+@time 618 ns in des::reg_signal() 13159411798184853656
+@time 620 ns in des::reg_signal() 2966586598647993700
+@time 622 ns in des::reg_signal() 1680631862032284296
+@time 624 ns in des::reg_signal() 7705903918526636288
+@time 626 ns in des::reg_signal() 9561626376027588372
+@time 628 ns in des::reg_signal() 658424187056525097
+@time 630 ns in des::reg_signal() 6287701071339932487
+@time 632 ns in des::reg_signal() 18416512855777724059
+@time 634 ns in des::reg_signal() 13706817532090113314
+@time 636 ns in des::reg_signal() 3252033842436357716
+@time 638 ns in des::reg_signal() 1082625642713804204
+@time 640 ns in des::reg_signal() 1102420396262197837
+@time 642 ns in des::reg_signal() 2222577083599901838
+@time 644 ns in des::reg_signal() 7617004432078399768
+@time 646 ns in des::reg_signal() 9763319211750512500
+@time 648 ns in des::reg_signal() 1133956464668618733
+@time 648 ns in recv() 1133956464668618733
+@time 650 ns in des::reg_signal() 6858186041245306574
+@time 652 ns in des::reg_signal() 17248508026145742044
+@time 654 ns in des::reg_signal() 16277487923725023169
+@time 656 ns in des::reg_signal() 15553887255221136274
+@time 658 ns in des::reg_signal() 13830554773010039409
+@time 660 ns in des::reg_signal() 3364546021445113330
+@time 662 ns in des::reg_signal() 5217311929112214256
+@time 664 ns in des::reg_signal() 15100070755118707956
+@time 666 ns in des::reg_signal() 11963853806102046888
+@time 668 ns in des::reg_signal() 5189653159958642756
+@time 670 ns in des::reg_signal() 14222073088973161612
+@time 672 ns in des::reg_signal() 15850692940168141852
+@time 674 ns in des::reg_signal() 11724249095392685416
+@time 676 ns in des::reg_signal() 4912750578194680465
+@time 678 ns in des::reg_signal() 15661866089619603507
+@time 680 ns in des::reg_signal() 13251068005914689591
+@time 682 ns in des::reg_signal() 9124169822261268603
+@time 684 ns in des::reg_signal() 13653279290898624931
+@time 684 ns in recv() 13653279290898624931
+@time 686 ns in des::reg_signal() 7756455350897698567
+@time 688 ns in des::reg_signal() 14004504147477106270
+@time 690 ns in des::reg_signal() 12221421211955382613
+@time 692 ns in des::reg_signal() 1689534487145792491
+@time 694 ns in des::reg_signal() 4224825074779476695
+@time 696 ns in des::reg_signal() 6991382466570805418
+@time 698 ns in des::reg_signal() 9730475455633723648
+@time 700 ns in des::reg_signal() 6780027310959261184
+@time 702 ns in des::reg_signal() 12410703227335257409
+@time 704 ns in des::reg_signal() 681746603449322370
+@time 706 ns in des::reg_signal() 192819747485271872
+@time 708 ns in des::reg_signal() 5786638534173907604
+@time 710 ns in des::reg_signal() 17354844897548366957
+@time 712 ns in des::reg_signal() 11958626805460285582
+@time 714 ns in des::reg_signal() 5758805816683095048
+@time 716 ns in des::reg_signal() 10054170534296914197
+@time 718 ns in des::reg_signal() 5066037130505880107
+@time 720 ns in des::reg_signal() 9856509910633170182
+@time 720 ns in recv() 9856509910633170182
+@time 722 ns in des::reg_signal() 398206003294096220
+@time 724 ns in des::reg_signal() 2236364663825351417
+@time 726 ns in des::reg_signal() 11345402930382736310
+@time 728 ns in des::reg_signal() 7990700624185874221
+@time 730 ns in des::reg_signal() 14541300294588562187
+@time 732 ns in des::reg_signal() 9699103445657052758
+@time 734 ns in des::reg_signal() 586948381353416957
+@time 736 ns in des::reg_signal() 1463617800425664703
+@time 738 ns in des::reg_signal() 4079945982128681274
+@time 740 ns in des::reg_signal() 8176517960078897712
+@time 742 ns in des::reg_signal() 17506888698177877348
+@time 744 ns in des::reg_signal() 13022414594486222540
+@time 746 ns in des::reg_signal() 7791722357805575373
+@time 748 ns in des::reg_signal() 10107152208641494411
+@time 750 ns in des::reg_signal() 1861942472973966854
+@time 752 ns in des::reg_signal() 7199481062990735449
+@time 754 ns in des::reg_signal() 9783617001505789411
+@time 756 ns in des::reg_signal() 5393504440562117254
+@time 756 ns in recv() 5393504440562117254
+@time 758 ns in des::reg_signal() 10441164164326020377
+@time 760 ns in des::reg_signal() 8487595041134520950
+@time 762 ns in des::reg_signal() 2606449138130121643
+@time 764 ns in des::reg_signal() 649549794392008278
+@time 766 ns in des::reg_signal() 1392527217984195817
+@time 768 ns in des::reg_signal() 2785058557861928386
+@time 770 ns in des::reg_signal() 962653581986459333
+@time 772 ns in des::reg_signal() 6604529589807978654
+@time 774 ns in des::reg_signal() 16303334201552937325
+@time 776 ns in des::reg_signal() 14237897342966829978
+@time 778 ns in des::reg_signal() 11203646835804436257
+@time 780 ns in des::reg_signal() 7413755810752231954
+@time 782 ns in des::reg_signal() 14812803180591505764
+@time 784 ns in des::reg_signal() 16007513887365432264
+@time 786 ns in des::reg_signal() 12180031862262728644
+@time 788 ns in des::reg_signal() 6216187622348037064
+@time 790 ns in des::reg_signal() 12234215830031509120
+@time 792 ns in des::reg_signal() 6017179576884414784
+@time 792 ns in recv() 6017179576884414784
+@time 794 ns in des::reg_signal() 16359291250908366721
+@time 796 ns in des::reg_signal() 10902811357789047362
+@time 798 ns in des::reg_signal() 5448070787794371041
+@time 800 ns in des::reg_signal() 15215089581016744899
+@time 802 ns in des::reg_signal() 12905526152873969618
+@time 804 ns in des::reg_signal() 8512373190347397857
+@time 806 ns in des::reg_signal() 17894011836952109266
+@time 808 ns in des::reg_signal() 17419317231834404017
+@time 810 ns in des::reg_signal() 12050407137872526690
+@time 812 ns in des::reg_signal() 5433411189073996672
+@time 814 ns in des::reg_signal() 15537121183850201680
+@time 816 ns in des::reg_signal() 16967509089560580596
+@time 818 ns in des::reg_signal() 10643452022292342716
+@time 820 ns in des::reg_signal() 7151437097014565753
+@time 822 ns in des::reg_signal() 13996695183923700471
+@time 824 ns in des::reg_signal() 9253086786919498986
+@time 826 ns in des::reg_signal() 5820377800098515157
+@time 828 ns in des::reg_signal() 17404535535647806638
+@time 828 ns in recv() 17404535535647806638
+@time 830 ns in des::reg_signal() 16596531977607690569
+@time 832 ns in des::reg_signal() 15683055478641402770
+@time 834 ns in des::reg_signal() 4620957090007428368
+@time 836 ns in des::reg_signal() 9512055317869584180
+@time 838 ns in des::reg_signal() 6652699081840261992
+@time 840 ns in des::reg_signal() 13327000287086098369
+@time 842 ns in des::reg_signal() 8480938139850337926
+@time 844 ns in des::reg_signal() 16943915959125444636
+@time 846 ns in des::reg_signal() 15495064154806948989
+@time 848 ns in des::reg_signal() 18110694585008401647
+@time 850 ns in des::reg_signal() 16643098376850135515
+@time 852 ns in des::reg_signal() 15993785940015440870
+@time 854 ns in des::reg_signal() 17288169021322217353
+@time 856 ns in des::reg_signal() 11445758083644886850
+@time 858 ns in des::reg_signal() 7633414169567108737
+@time 860 ns in des::reg_signal() 9771613173964831746
+@time 862 ns in des::reg_signal() 5652912353225911569
+@time 864 ns in des::reg_signal() 14818566512812826482
+@time 864 ns in recv() 14818566512812826482
+@time 866 ns in des::reg_signal() 14864463959057727393
+@time 868 ns in des::reg_signal() 11067048777729175363
+@time 870 ns in des::reg_signal() 14237071995517808940
+@time 872 ns in des::reg_signal() 11109305360954959708
+@time 874 ns in des::reg_signal() 3822797327104761849
+@time 876 ns in des::reg_signal() 8007272049269140131
+@time 878 ns in des::reg_signal() 14857096179710411074
+@time 880 ns in des::reg_signal() 15590073041931372496
+@time 882 ns in des::reg_signal() 13035143528763120372
+@time 884 ns in des::reg_signal() 3286593871857119465
+@time 886 ns in des::reg_signal() 1092588262549987799
+@time 888 ns in des::reg_signal() 6508277046330742699
+@time 890 ns in des::reg_signal() 13105549385448205122
+@time 892 ns in des::reg_signal() 4580656842105160645
+@time 894 ns in des::reg_signal() 4477657825377080010
+@time 896 ns in des::reg_signal() 4040759344767415696
+@time 898 ns in des::reg_signal() 7311319298295937648
+@time 900 ns in des::reg_signal() 15833329196640710881
+@time 900 ns in recv() 15833329196640710881
+@time 902 ns in des::reg_signal() 16660929438458737794
+@time 904 ns in des::reg_signal() 16098968277841984529
+@time 906 ns in des::reg_signal() 8391410688868016570
+@time 908 ns in des::reg_signal() 17918854642525586037
+@time 910 ns in des::reg_signal() 12780387706847217147
+@time 912 ns in des::reg_signal() 7403647164876824246
+@time 914 ns in des::reg_signal() 15869286411435653228
+@time 916 ns in des::reg_signal() 17106724731666396365
+@time 918 ns in des::reg_signal() 10271258369192603102
+@time 920 ns in des::reg_signal() 5476657743112855545
+@time 922 ns in des::reg_signal() 15925201565381950182
+@time 924 ns in des::reg_signal() 17168365769188942044
+@time 926 ns in des::reg_signal() 11080142788038443260
+@time 928 ns in des::reg_signal() 8635993230629045672
+@time 930 ns in des::reg_signal() 12314879244259056401
+@time 932 ns in des::reg_signal() 116596172965853031
+@time 934 ns in des::reg_signal() 6298696888230903759
+@time 936 ns in des::reg_signal() 16916553625649392266
+@time 936 ns in recv() 16916553625649392266
+@time 938 ns in des::reg_signal() 9355672540311064917
+@time 940 ns in des::reg_signal() 1656278438117974714
+@time 942 ns in des::reg_signal() 10982808179971340694
+@time 944 ns in des::reg_signal() 6972098577161347945
+@time 946 ns in des::reg_signal() 13889919819974693763
+@time 948 ns in des::reg_signal() 14182329674641356375
+@time 950 ns in des::reg_signal() 9868449341326305467
+@time 952 ns in des::reg_signal() 1576996027278427254
+@time 954 ns in des::reg_signal() 3356653149799909561
+@time 956 ns in des::reg_signal() 6664823608245622130
+@time 958 ns in des::reg_signal() 12225354151968209824
+@time 960 ns in des::reg_signal() 432922727076508181
+@time 962 ns in des::reg_signal() 6435940247644217658
+@time 964 ns in des::reg_signal() 16426698532883726944
+@time 966 ns in des::reg_signal() 9727677962597126352
+@time 968 ns in des::reg_signal() 6407227139128272356
+@time 970 ns in des::reg_signal() 16557015989068716748
+@time 972 ns in des::reg_signal() 11136554920160436425
+@time 972 ns in recv() 11136554920160436425
+@time 974 ns in des::reg_signal() 7213832448123093383
+@time 976 ns in des::reg_signal() 15666911274672903946
+@time 978 ns in des::reg_signal() 8771238109313586133
+@time 980 ns in des::reg_signal() 13124109972722086843
+@time 982 ns in des::reg_signal() 4112980450690266738
+@time 984 ns in des::reg_signal() 8609874829536459172
+@time 986 ns in des::reg_signal() 13472661224712889164
+@time 988 ns in des::reg_signal() 3523012368444725209
+@time 990 ns in des::reg_signal() 8131485726844743655
+@time 992 ns in des::reg_signal() 11593931605993495451
+@time 994 ns in des::reg_signal() 399368980545954402
+@time 996 ns in des::reg_signal() 812037602186150096
+@time 998 ns in des::reg_signal() 260609056760435876
+Receiving RequestToRemoveTheChannelMessage1 in Cluster 1 from Cluster 0 timestamp 999 GetLocaltime 998 workingInputChannelCount 1 index 0
+Receiving RequestToRemoveTheChannelMessage1 in Cluster 2 from Cluster 0 timestamp 999 GetLocaltime 998 workingInputChannelCount 1 index 0
+Finalizing simulation ...
+Simulation completed (33730 events in 1.51551 secs, 22256 events/sec, 9273 deadlocks, 6118 deadlocks/sec, 0 null-messages, 0 null-messages/sec executed on 3 logical processors with 2 physical cores).
+
+Number of (blocking states, processed events) in Cluster 0 is (5088, 5373).
+Number of (blocking states, processed events) in Cluster 1 is (7221, 15203).
+Number of (blocking states, processed events) in Cluster 2 is (5206, 13154).
+
+user CPU time used - second: 0 microseconds: 482000
+system CPU time used - second: 1 microseconds: 750000
+maximum resident set size: 8144
+integral shared memory size: 0
+integral unshared data size: 0
+integral unshared stack size: 0
+page reclaims (soft page faults): 2919
+page faults (hard page faults): 0
+swaps: 0
+block input operations: 0
+block output operations: 72
+IPC messages sent: 0
+IPC messages received: 0
+signals received: 0
+voluntary context switches: 28787
+involuntary context switches: 4386
+
+numberOfActivatedProcesses: 21681
